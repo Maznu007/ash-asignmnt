@@ -1,121 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Hometown - Your Name</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Embedded CSS */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9; /* Light background color */
-            color: #333; /* Dark text color for readability */
-            margin: 0;
-            padding: 0;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MD. Rauful Islam's Portfolio</title>
 
-        header {
-            background-color: #3498db; /* Vibrant blue background */
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            font-size: 28px;
-            font-weight: bold;
-        }
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
 
-        main {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 20px;
-        }
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <h1>Rauful</h1>
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="hometown.html">Home Town</a>
+                        <a href="activity.html">My Favorite Activity</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
-        section {
-            max-width: 800px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+        <main class="container">
+            <section class="hometown-section">
+                <h2>About My Hometown</h2>
+                <p>My hometown is a picturesque town known for its stunning landscapes and friendly community. It’s a place where tradition meets tranquility, offering a peaceful escape from the hustle and bustle of city life.</p>
+                <p class="highlight">People: The people in my hometown are warm and welcoming, known for their strong sense of community and hospitality.</p>
+                <p class="italic">Culture: The culture is rich with traditions, including local festivals and vibrant arts. It's a blend of historical heritage and modern influences, celebrated with enthusiasm and pride.</p>
+                <img src="/images/hometown.jpeg" alt="Hometown Image" />
+                <!-- Add picture here -->
+            </section>
 
-        h2 {
-            color: #e74c3c; /* Vibrant red color */
-            margin-bottom: 20px;
-        }
+            <section class="hometown-section">
+                <h3>Scenery & Food</h3>
+                <p>The scenery in my hometown features lush green hills, serene lakes, and picturesque sunsets, creating a tranquil and scenic environment.</p>
+                <img src="" alt="Scenery Image" />
 
-        p {
-            line-height: 1.6;
-            margin: 10px 0;
-        }
+                <p>My hometown is famous for its delicious local cuisine, including traditional dishes like spicy curries, savory pastries, and fresh seafood, which reflect the region’s unique flavors and culinary heritage.</p>
+                <img src="" alt="Food Image" />
+            </section>
+        </main>
 
-        .highlight {
-            color: #b5651d; /* Warm color */
-            font-weight: bold;
-        }
-
-        .italic {
-            font-style: italic;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-top: 10px;
-        }
-
-        footer {
-            background-color: #2c3e50; /* Dark background for footer */
-            color: #ecf0f1; /* Light text color */
-            text-align: center;
-            padding: 20px;
-            border-top: 5px solid #e76f51; /* Accent border */
-        }
-
-        footer a {
-            color: #ecf0f1;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        footer a:hover {
-            color: #e76f51; /* Accent color on hover */
-        }
-    </style>
-</head>
-<body>
-    <header>
-        Welcome to My Hometown
-    </header>
-
-    <main>
-        <section>
-            <h2>About My Hometown</h2>
-            <p>My hometown is a picturesque town known for its stunning landscapes and friendly community. It’s a place where tradition meets tranquility, offering a peaceful escape from the hustle and bustle of city life.</p>
-            <p class="highlight">People: The people in my hometown are warm and welcoming, known for their strong sense of community and hospitality.</p>
-            <p class="italic">Culture: The culture is rich with traditions, including local festivals and vibrant arts. It's a blend of historical heritage and modern influences, celebrated with enthusiasm and pride.</p>
-            <img src="ert.jpg" alt="Hometown Image"> <!-- Add picture here -->
-        </section>
-
-        <section>
-            <h3>Scenery & Food</h3>
-            <p>The scenery in my hometown features lush green hills, serene lakes, and picturesque sunsets, creating a tranquil and scenic environment.</p>
-            <img src="istockphoto-1381637603-612x612.jpg" alt="Scenery Image"> <!-- Add picture here -->
-            <p>My hometown is famous for its delicious local cuisine, including traditional dishes like spicy curries, savory pastries, and fresh seafood, which reflect the region’s unique flavors and culinary heritage.</p>
-            <img src="article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg" alt="Food Image"> <!-- Add picture here -->
-        </section>
-    </main>
-
-    <footer>
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="activity.html">My Favorite Activity</a>
-        </p>
-    </footer>
-</body>
+        <footer>
+            <p>© 2024 Your Name. All Rights Reserved.</p>
+        </footer>
+    </body>
 </html>
