@@ -12,9 +12,9 @@ a {
 
 body {
     margin: 0;
-    background-color: #002664;
-    font-family: "Roboto", sans-serif;
+    background-color: #191919;
     color: white;
+    font-family: "Roboto", sans-serif;
     line-height: 1.6;
 }
 
@@ -31,8 +31,8 @@ img {
 
 /* Header Styles */
 header {
-    background-color: #ffc107;
-    color: #0c0c0c;
+    background-color: #191919;
+    color: white;
 }
 
 .header-content {
@@ -55,13 +55,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #f7f7f7;
+    color: #93a9ff;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #ffc107;
-    color: black;
+    background-color: #191919;
+    color: white;
     text-align: center;
     padding: 2rem 0;
     font-size: 1.2rem;
@@ -71,17 +71,42 @@ footer {
 .hero-section {
     display: flex;
     align-items: center;
-    gap: 4rem;
     width: 100%;
-    padding: 7rem 0;
+    background-color: #191919;
+    color: white;
+}
+
+.hero-section-image {
+    background-color: #93a9ff;
+    padding: 7rem;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-section-image img {
     border-radius: 10%;
+    height: 420px;
+    width: 345px;
+}
+
+.hero-section-text {
+    width: 50%;
 }
 
 .hero-section-text h3 {
-    font-size: calc((2.8 - 1) * 1.2vw + 1rem);
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding-left: 3rem;
+}
+
+.hero-section-text h3 span {
+    color: #93a9ff;
+}
+.hero-section-text h3 p {
+    font-size: 1.5rem;
 }
 
 /* Introduction Section Styles */
@@ -97,10 +122,19 @@ footer {
     display: block;
     width: 10rem;
     height: 1px;
-    background-color: #ffc107;
+    background-color: #93a9ff;
 }
+
 .intro-section-left {
     width: 40%;
+}
+
+.intro-section-left-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-section-text {
@@ -111,13 +145,13 @@ footer {
 .intro-section-left-content {
     display: flex;
     gap: 3rem;
-    justify-content: center;
     align-items: center;
     font-size: calc((1.1 - 1) * 1.2vw + 1rem);
 }
 
 .intro-section-text p {
-    font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+    margin: 1rem 0;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
     word-wrap: break-word;
     line-height: 1.8em;
 }
@@ -125,7 +159,7 @@ footer {
 /* Quote Section Styles */
 .quote {
     background-color: white;
-    color: #002664;
+    color: #000080;
     padding: 2rem 0;
     text-align: center;
 }
@@ -161,6 +195,8 @@ footer {
     border: none;
     outline: none;
     font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+    background-color: #f0ffff;
+    color: black;
 }
 
 .submit-email {
@@ -169,13 +205,20 @@ footer {
     border: none;
     outline: none;
     font-size: calc((1.5 - 1) * 1.2vw + 1rem);
-    background-color: #ffc107;
+    background-color: #93a9ff;
     color: black;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 /* Home Town Page Styles */
+
+.bd-flag {
+    width: 50%;
+    height: auto;
+    margin: 3rem auto;
+    display: flex;
+}
 
 .page-section-main {
     display: flex;
